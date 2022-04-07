@@ -1,0 +1,104 @@
+
+*{margin:0; padding: 0;box-sizing: border-box; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif } 
+
+.container{display: flex; justify-content: center;
+          align-items: center; height:100vh;
+          background-color:whitesmoke}
+
+.content{border-radius: 15px; background-color: white;
+         width: 60%; height: 50%;
+         display: flex; justify-content:space-between; align-items: center;
+         position: relative; }
+
+.FirstContent{display: flex; position: relative; }
+
+.FirstContent .SecondColumn{z-index: 11;}
+
+.FirstColumn{text-align: center; width: 40%; z-index: 10;}
+
+.SecondColumn{width: 60%; display: flex; flex-direction: column; align-items: center;}
+
+
+.content::before{
+    content:"" ;
+    position: absolute;
+    background-color:#58af9b;
+    width: 40%;
+    height: 100%;
+    border-top-left-radius:15px ;
+    border-bottom-left-radius:15px ;
+  
+ /* SecondContent*/
+left: 0;
+}
+
+.title{font-size: 28px;;font-weight: bold; text-transform: capitalize;}
+.titleFirst{color: #fff;}
+
+.titleSecond{color: #58af9b;}
+
+
+
+.description{font-size: 14px; font-weight: 300;line-height: 30px; }b
+.DescriptionPrimary{color: #fff;}
+.descriptionSecond{color: #7f8c7f;}
+
+.btn{border-radius: 15px; text-transform: uppercase;color: #fff;font-size: 10px;padding: 10px 50px ; cursor: pointer; width: 150px;  align-self: center; border: 2px solid}
+ 
+.btnPrimary{background-color:transparent ; border: 2px solid #fff;transition:background-color 1s; }
+
+.btnPrimary:hover{background-color: #fff; color: #58af9b;}
+
+.btnSecond{background-color: #58af9b; border: 1px solid #58af9b; transition:background-color 1s;}
+.btnSecond:hover{background-color: white;color: #58af9b ;}
+
+
+.form{ display: flex; flex-direction: column; width: 55%; text-align: center;} 
+.form input{height:45px;border: none;background-color: #ecf0f1; margin:8px; width:100%;}
+
+.labelInput{background-color: #ecf0f1;display: flex; align-items: center;margin: 8px;}
+
+.icon{color: #7f8c7f;padding:0 5px ;}
+
+            /********** second CONTENT a gambiarra  cuidado ai mecher *****/ 
+
+
+.SecondContent{position: absolute; display:flex;}
+
+.SecondContent .FirstColumn {order: 2; z-index: -1;
+}
+ 
+.SecondContent .SecondColumn {order: 1; z-index: -1;}
+
+.password{color: #58af9b; font-size: 14px; margin: 15px 0; ;}
+
+
+
+.SinginJs .FirstContent .FirstColumn,
+.SinginJs .FirstContent .SecondColumn{z-index: -1;}
+
+.SinginJs .SecondContent .FirstColumn,
+.SinginJs .SecondContent .SecondColumn{z-index: 11;}
+
+.SinginJs .content::before {left: 60%; border-top-right-radius: 15px ;
+border-bottom-right-radius:15px ; animation:slidein 3s ;}
+
+
+.SingupJs .SecondContent .FirstColumn,
+.SingupJs .SecondContent .SecondColumn {z-index: -1; }
+
+.SingupJs .FirstContent .FirstColumn,
+.SingupJs .FirstContent .SecondColumn{z-index: 11;}
+
+
+
+
+/* animação css*/
+@keyframes slidein {
+
+    from{
+left: 0;
+width: 40%;}
+
+to {left: 60%; width: 40%;}}
+

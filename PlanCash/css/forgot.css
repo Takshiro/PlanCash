@@ -1,0 +1,26 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body {background-color: gray;}
+
+.container{display: flex; justify-content: center;
+    align-items: center; height:100vh;
+    background-color: gray;}
+    
+.form{border-radius: 15px; background-color: white;
+    width: 45%; height: 50%;
+    display: flex; justify-content:space-between; align-items: center;
+    position: relative; flex-direction: column; }
+
+h2{color: #58af9b;}
+
+
+.form input{height:45px;border: none;background-color: #ecf0f1; margin:8px; width:100%;}
+
+.labelInput{background-color: #ecf0f1;display: flex; align-items: center;margin: 8px;}
+
+.icon{color: #7f8c7f;padding:0 5px ;}
+
+.btnSecond{background-color: #58af9b; border: 1px solid #58af9b; transition:background-color 1s;     width: 25%;
+    height: 10%;
+    border-radius: 8px;}
+.btnSecond:hover{background-color: white;color: #58af9b ;}
+.olho {cursor: pointer;}

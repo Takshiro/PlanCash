@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="en">
+ <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/login.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b0bd75e0fb.js" crossorigin="anonymous"></script>
+  
+  <title>PlanCash</title>
+</head>
+<body  class="">
+   <section class="container"><!--FIST CONTENT-->
+    
+   <div class="content FirstContent">     <!--FIST CONTENT-->
+     <div class="FirstColumn">
+        <h2 class="title titleFirst" >Bem-Vindo</h2>
+        <p class="description DescriptionPrimary">Entre com sua conta já existente</p>
+        <button id="Singin" class="btn btnPrimary">Entrar</button> 
+</div>
+     
+     <!---FIRST CONTENT SECOND COLUMN-->
+      <div class="SecondColumn">
+      <h2 class="title titleSecond">Criar conta</h2>
+      <p class="description descriptionSecond">use seu email para registrar!</p>
+       <form class="form">
+        <label class="labelInput">
+            <i class="fas fa-user icon"></i>
+          <input type="text" placeholder="nome" >
+         </label>
+         <label class="labelInput ">
+             <i class="far fa-envelope icon"></i>
+             <input type="email" placeholder="email" >
+         </label>
+         <label class="labelInput">
+             <i class="fas fa-lock icon"></i>
+              <input type="password"  placeholder="senha"> 
+         </label>
+           <button class="btn btnSecond" onclick="novouser">Criar</button>
+      </form>
+    </div>
+     
+   </div>
+              
+  
+             <!-- SECOND CONTENT-->  <!-- SECOND CONTENT-->  <!-- SECOND CONTENT-->
+   <div class="content SecondContent">
+      <div class="FirstColumn"> 
+        <h2 class="title titleFirst">Ola!</h2>
+        <p class="description DescriptionPrimary">Crie sua conta</p>
+        <button id="Singup"   class="btn btnPrimary">Criar</button> 
+    </div>
+
+   <div class="SecondColumn"> 
+     <h2 class="title titleSecond">Entrar PlanCash</h2>
+     <p class="description descriptionSecond">use seu email para entrar!</p>
+     <form action="homeLogado.html" class="form">
+       <label class="labelInput ">
+           <i class="far fa-envelope icon"></i>
+           <input type="email" placeholder="email" >
+       </label>
+       <label class="labelInput">
+           <i class="fas fa-lock icon"></i>
+            <input type="password"  placeholder="senha"> 
+       </label>
+        <a class="password"  href="forgot.html">Esqueceu sua senha?</a>
+         <button type="submit"  class="btn btnSecond" value="submit" >Entrar</button>   
+    </form>
+    </div>
+  </section> 
+  <script src="js/lgn.js"></script>    
+</body>

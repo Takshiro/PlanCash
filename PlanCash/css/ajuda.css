@@ -1,0 +1,45 @@
+.imgajuda{
+    width: 50px;
+     
+}
+
+.barra{
+    height: 30px;
+    width: 400px;
+    box-shadow: 5px 5px 10px rgb(145, 141, 141);
+    margin: auto;
+    border:white;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 9px;
+    
+
+    
+    
+}
+
+.containermargemNovIcon {
+    width: 600px;
+
+}
+
+.containermargemNovIcon2{
+    width: 300px;
+}
+
+div{
+    display: inline-block;
+}
+
+    
+
+::placeholder{
+    text-align: center;
+
+}
+
+.lupa{
+    width: 25px;
+    cursor: pointer;
+    
+    
+}

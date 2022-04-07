@@ -1,0 +1,29 @@
+.marginLeft30 {
+    margin-left: 180px;
+}
+
+.marginRight30 {
+    margin-right: 180px;
+}
+
+.cor-padrao {
+    color: #12a59b;
+}
+
+.noLink { 
+    text-decoration:none; 
+   } 
+
+a:link 
+{ 
+ text-decoration:none; 
+} 
+.cor-preta { color:black; }
+
+.cor-branca { color: white; }
+
+.medidaApoiadores { width: 300px 180px;}
+
+.hoverDanger:hover {
+    background-color: rgba(255, 0, 0, 0.472);
+}

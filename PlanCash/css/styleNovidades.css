@@ -1,0 +1,12 @@
+.AlturaNovidadesIcon {
+    min-height: 200px;
+}
+
+.margemNovIcon {
+    margin-top: 70px;
+}
+
+.hoverNov:hover {
+   
+   border: 1px solid  #12a59b;
+}
